@@ -1,0 +1,5 @@
+const calculate = require("./calculate")
+console.log(calculate.toplama(9,12))
+console.log(calculate.cikarma(15,5))
+console.log(calculate.carpma(9,12))
+console.log(calculate.bolme(50,5))
