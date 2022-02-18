@@ -37,7 +37,9 @@
   }
 }
 .card{
- 
-  margin: 25px;
-  
+ display: flex;
+ box-shadow: 1px 1px 1px 0px;
+margin: 13px;
 }
+
+

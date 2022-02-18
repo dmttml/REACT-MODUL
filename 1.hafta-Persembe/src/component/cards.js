@@ -1,12 +1,11 @@
 import React from 'react'
 import{Card,Button, CardGroup} from 'react-bootstrap'
-import {imgUrl} from 'react';
 function Cards() {
     return(
-        <div>
-             <CardGroup className="col-md-5 mx-auto">
+        <div className='card-grup'>
+             <CardGroup className="col-md-7 mx-auto m-4">
                     <Card className="card" style={{ width: '16rem' }} >
-                      <Card.Img variant="top" src="" className="image"/>
+                      <Card.Img variant="top" src="http://uzmanimakademi.net/img/ice-age.jpg" alt='' />
                          <Card.Body>
                            <Card.Title>Card Title</Card.Title>
                             <Card.Text>
@@ -16,8 +15,8 @@ function Cards() {
                             <Button variant="primary">Go somewhere</Button>
                          </Card.Body>
                    </Card>
-                   <Card style={{ width: '18rem' }}>
-                      <Card.Img variant="top" src="" />
+                   <Card className="card" style={{ width: '18rem' }}>
+                      <Card.Img variant="top" src="http://uzmanimakademi.net/img/ice-age.jpg" className='images' />
                          <Card.Body>
                              <Card.Title>Card Title</Card.Title>
                                <Card.Text>
@@ -27,8 +26,8 @@ function Cards() {
                                 <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="" />
+                    <Card className="card" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="http://uzmanimakademi.net/img/ice-age.jpg" />
                          <Card.Body>
                            <Card.Title>Card Title</Card.Title>
                               <Card.Text>
