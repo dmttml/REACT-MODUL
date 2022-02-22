@@ -1,7 +1,7 @@
 
-import React, { useState } from "react";
+import React, { useState } from "react"; // React i sayfaya import eder.
 
-const App = () => {
+const App = () => { // Olusturulan fonksiyonu tanimlar.
 
   let time = new Date().toLocaleTimeString() //guncel saati gosterir
 
