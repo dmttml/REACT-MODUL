@@ -1,22 +1,26 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { } from "react-bootstrap";
+const Friend = (props) => {
+    const friend =props.data.map((friend) => {
 
-const Friends = () => {
-    return(
+    
+    return (
         <div>
             <Card.Title className="baslik">FRIENDS</Card.Title>
-            <Card style={{ width: '14rem' }}>
-            
-                <Card.Img variant="top" src="https://robohash.org/inventoredolorumest.png?size=250x250&set=set1" />
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={friend.avatar} />
                 <Card.Body>
-                    <Card.Text>firstname</Card.Text>
-                    <Card.Text>gender</Card.Text>
-                    <Card.Text>birthday</Card.Text>
-                    <Card.Text>phone</Card.Text>
-                
+                    
+                    <Card.Text>Firstname:{friend.firstName}</Card.Text>
+                    <Card.Text>Gender:{friend.gender}</Card.Text>
+                    <Card.Text>Birthday:{friend.birthday}</Card.Text>
+                    <Card.Text>Phone:{friend.phone}</Card.Text>
+                    
                 </Card.Body>
             </Card>
         </div>
     )
+    return friend
+})
 }
-export default Friends
+export default Friend

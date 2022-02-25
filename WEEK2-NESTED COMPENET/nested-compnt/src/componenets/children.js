@@ -1,14 +1,15 @@
 import React from "react";
-import Children from "./child";
+import Child from "./child"
 
-export default function Childrens(props) {
-    return(
-        <div className="card-group">
-            {props.childrens.map((childrensInfo,index) => <Children key={index} data={childrensInfo}/>)}
+const Children = (props) => {
 
+    return (
+        <div>
+        {
+            props.children.map((childrenInfo,index) => <Child key={index} data={childrenInfo} />)
+        }
         </div>
     )
 
-    
-    
-}
+};
+export default Children

@@ -12,14 +12,9 @@ code {
     monospace;
 }
 .baslik{
-  width: 100%;
-  height: 5vh;
-  background-color: lightcoral;
+  width:80%;
   color: white;
-  margin-top: 15px;
+  background-color: rgb(224, 39, 39);
+  margin-top: 10px;
 }
-.App{
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
-}
+
