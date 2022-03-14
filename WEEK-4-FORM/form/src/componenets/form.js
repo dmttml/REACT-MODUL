@@ -1,32 +1,47 @@
 import React, { useState } from "react"
 
-const Form = (props) => {
-   const[username,setUsername] = useState("")
-   const[email,setEmail] = useState("")
-   const [password,setPassword] = useState("")
 
-   const handleSubmit = (e) =>{
-       e.preventDefault()
-       console.log(username)
-   }
+const Form = () => {
+    const [user, setUser] = useState({})
+    const [submited, setsubmited] = useState(false)
+    const submit = (e) => {
+        e.preventDefault()
+        if (user.password !== user.passwordrepeat) {
+            return;
+        }
+        setsubmited(!submited)
+    }
     return (
         <div>
             <h1 className="baslik">SIGN APP</h1>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={submit}>
                 <label>
-                    <input type="text" name="username" className="input" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)}/>
-                    <br></br>
-                    <input type="email" name="email" className="input" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                    <br></br>
-                    <input type="password" name="password" className="input" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                    <br></br>
-                    <input type="password" name="password" className="input" placeholder="Password repeat"/>
-                    <br></br>
-                    <button type="submit" value="Submit"  className="submit">Sign Up</button>
+                    <input name="user[username]" placeholder="username" className="input" value={user.username} onChange={e => setUser({ ...user, username: e.target.value })} />
+                    <br />
+                    <input className="input" name="user[email]" placeholder="email" value={user.email} onChange={e => setUser({ ...user, email: e.target.value })} />
+                    <br />
+                    <input className="input" name="user[password]" placeholder="password" value={user.password} onChange={e => setUser({ ...user, password: e.target.value })} />
+                    <br />
+                    <input className="input" name="user[password]" placeholder="password repeat" value={user.passwordrepeat} onChange={e => setUser({ ...user, passwordrepeat: e.target.value })} />
+                    <br />
+                    <button type="submit" className="submit">Sign Up</button>
                     <br></br>
                 </label>
-                
+
             </form>
+
+            {
+                submited &&
+                <section className="container">
+                    <h1>Your Information</h1>
+                    <ul>
+                        <li className="list">Username: {user.username}</li>
+                        <li className="list">Email:{user.email}</li>
+                        <li className="list">Password:{user.password}</li>
+                    </ul>
+                </section>
+            }
+
         </div>
     )
 }
