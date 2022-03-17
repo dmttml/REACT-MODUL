@@ -1,0 +1,27 @@
+
+.baslik{
+    background-color: rgb(105, 105, 192);
+    width: 100%
+}
+.input{
+    height: 18px;
+    margin-top: 8px;
+    background-color:aliceblue;
+}
+.about{
+    margin-top: 8px;
+    background-color:aliceblue;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.col{
+   
+    margin-left: 20px;
+}
+.submit{
+   background-color: rgb(105, 105, 192);
+    
+}
