@@ -38,7 +38,7 @@ const App = () => {
   return (
     <div className="App container">
       <div className='row'>
-         <div className='col'>
+         <div className='col-md-3'>
          <h3 className="baslik">ADD PERSON</h3>
          <form onSubmit={submit}>
                 <label>
@@ -63,7 +63,7 @@ const App = () => {
 
             </form>
          </div>
-         <div className='col'>
+         <div className='col-md-9'>
            <PersonList list={personList}/>
          </div>
       </div>

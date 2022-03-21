@@ -7,11 +7,11 @@ function PersonList({ list }) {
             
                 <thead>
                     <tr>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Email</th>
-                        <th>Password</th>
-                        <th>About</th>
+                        <th className='alt-baslik'>First Name</th>
+                        <th className='alt-baslik'>Last Name</th>
+                        <th className='alt-baslik'>Email</th>
+                        <th className='alt-baslik'>Password</th>
+                        <th className='alt-baslik'>About</th>
                     </tr>
                 </thead>
 

@@ -1,10 +1,11 @@
 
 .baslik{
     background-color: rgb(105, 105, 192);
+    margin-top: 10px;
     
 }
 .input{
-    height: 18px;
+    height: 25px;
     margin-top: 8px;
     background-color:aliceblue;
 }
@@ -17,11 +18,11 @@
     flex-direction: row;
     
 }
-.col{
-   
-    margin-left: 20px;
-}
 .submit{
    background-color: rgb(105, 105, 192);
     
+}
+.alt-baslik{
+    color: black;
+    width: 3%;
 }
