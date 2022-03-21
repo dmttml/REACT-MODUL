@@ -1,22 +1,34 @@
 import React from 'react'
-import {Container,Row,Col } from 'react-bootstrap'
-import Form from './form'
-import Person from './person'
-function PersonList() {
+function PersonList({ list }) {
     return (
-       <div>
-            <Container  >
-                <Row className='content'>
-                    <Col  className="col"  >
-                        <Form></Form>
-                    </Col>
+        <div>
+            <h3 className="baslik">PERSON LIST</h3>
+            <table>
+            
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>About</th>
+                    </tr>
+                </thead>
 
-                    <Col className="col">
-                        <Person></Person>
-                    </Col>
-                </Row>
-            </Container>
-         </div>
+                {
+
+                    list.map((person, index) => {
+                        <tr key={index}>
+                        <td>{person.firstName}</td>
+                        <td>{person.lastName}</td>
+                        <td>{person.email}</td>
+                        <td>{person.password}</td>
+                        <td>{person.about}</td>
+                    </tr>
+                    })
+                }
+            </table>
+        </div>
     )
 }
 
