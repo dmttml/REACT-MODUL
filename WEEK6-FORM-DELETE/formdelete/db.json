@@ -1,0 +1,148 @@
+{
+  "emplooye": [
+    {
+      "id": 1,
+      "firstName": "Sebastian",
+      "lastName": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com",
+      "password": 12263,
+      "about": "Lorem ipsum..."
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": "Lorem ipsum..."
+      },
+      "id": 2
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": "Lorem ipsum..."
+      },
+      "id": 3
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi"
+      },
+      "id": 4
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi"
+      },
+      "id": 5
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 6
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 7
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 8
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 9
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 10
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 11
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 12
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 13
+    },
+    {
+      "person": {
+        "firstName": "Demet",
+        "lastName": "Dalgic",
+        "email": "demet55temel@gmail.com",
+        "password": "begodi",
+        "about": " nn"
+      },
+      "id": 14
+    },
+    {
+      "firstName": "Selim",
+      "lastName": "Dalgic",
+      "email": "mselimdalgic1@gmail.com",
+      "password": "Begodi55#",
+      "about": " aafh",
+      "id": 15
+    }
+  ]
+}
