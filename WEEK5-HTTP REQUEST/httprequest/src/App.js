@@ -16,15 +16,15 @@ const App = () => {
     }, [])
 
     const savePerson = async (pPerson) => {
-    await fetch('http://localhost:3000/person', {
+    await fetch(' http://localhost:3000/emplooye ', {
         method:'POST',
-        body: JSON.stringify({person}),
+        body: JSON.stringify(pPerson),
         headers:{'Content-Type': 'application/json'}
     });
     }
 
     const getListofPerson = async () => {
-        const response = await fetch('http://localhost:3000/person');
+        const response = await fetch('http://localhost:3000/emplooye');
         const list = await response.json();
         setPersonList(list)
         }
